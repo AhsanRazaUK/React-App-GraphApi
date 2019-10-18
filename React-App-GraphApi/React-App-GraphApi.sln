@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "React-App-GraphApi", "React-App-GraphApi.csproj", "{04B21FC7-6779-43CE-BC56-0ADDA9815EBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04B21FC7-6779-43CE-BC56-0ADDA9815EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B21FC7-6779-43CE-BC56-0ADDA9815EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B21FC7-6779-43CE-BC56-0ADDA9815EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B21FC7-6779-43CE-BC56-0ADDA9815EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93B74DCA-5FF3-42A4-BD2A-A2665A9EEF27}
+	EndGlobalSection
+EndGlobal
