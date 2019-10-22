@@ -12,16 +12,16 @@ export class Home extends Component {
             <div className="row">
                 <div className="col-md-4">
                     <div className="profile-img">
-                        <img className="rounded-circle" src={props.photo} alt="" />
+                        <img className="rounded-circle" src={props.state.photo} alt="" />
                     </div>
                 </div>
                 <div className="col-md-6">
                     <div className="profile-head">
                         <h5>
-                            {props.user.displayName}
+                            {props.state.user.displayName}
                         </h5>
                         <h6>
-                            {props.user.jobTitle}
+                            {props.state.user.jobTitle}
                         </h6>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ export class Home extends Component {
         if (this.props.isAuthenticated) {
             contents = this.props.state.isLoading
                 ? <p className="text-center"><em>... Loading Your Profile ...</em></p>
-                : Home.renderUserProfile(this.props.state);
+                : Home.renderUserProfile(this.props);
         }
 
         else {
