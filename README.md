@@ -14,7 +14,7 @@ cd React-App-GraphApi
 ```
 ### Blog Post
 
-https://ahsanshares.wordpress.com/2019/10/21/react-app-consuming-microsoft-graph/
+https://ahsanshares.wordpress.com/2019/10/19/react-app-consuming-microsoft-graph/
 
 ## Authors
 
